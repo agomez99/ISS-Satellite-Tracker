@@ -13,7 +13,7 @@ APIs used:
    Google Maps, Spotify, Leaflet (JavaScript library for mobile-friendly interactive maps) **
 
 Rough breakdown of tasks:
-  Backend (Java): Travis
+  Backend (Javascript): Travis
   Front End (CSS/HTML/BOOTSTRAP/OTHER: Rina and Austine
   
   
