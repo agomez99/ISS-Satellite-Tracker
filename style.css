@@ -1,0 +1,20 @@
+
+
+
+
+.title{
+    text-align: center;
+}
+
+header span.animated {
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    
+}
+.bounceInDown{
+text-align: center;
+font-size: 70px;
+font-family: sans-serif;
+font-weight: bold;
+}
