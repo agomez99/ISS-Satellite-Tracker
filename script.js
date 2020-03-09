@@ -173,8 +173,7 @@ $("#timeStamp").html("time stamp "  + year + "-" + month + "-" + date + " " + ho
     $("#stat2").html("longitude " + response.positions[0].satlongitude);
 
 
-    
-  });
+
 
 
 
