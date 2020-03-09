@@ -1,46 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://d3js.org/topojson.v0.min.js"></script>
-   <script src="js/satellite.min.js"></script>
-   <title>ISS Tracker</title>
-    <style>
-      body {
-        background-color: white;
-      }
-      svg {
-        border: 2px solid black;
-        background-color: #a4bac7;
-      }
 
-      .land {
-        fill: #d7c7ad;
-        stroke: #766951;
-        z-index: 1;
-      }
 
-      .boundary {
-        fill: none;
-        stroke: #a5967e;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StationTrak</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-----Mapbox map to be deleted--------------------------------------------------------------------------------------------------->
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
 
-      .graticule {
-        fill: none;
-        stroke: #fff;
-        stroke-width: 0.5px;
-      }
+  <!---------------------------------------------------------------------------------------------------------------------->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="animate.css">
+  <script type="text/javascript" src="script.js"></script>
 
-      .graticule :nth-child(2n) {
-        stroke-dasharray: 2, 2;
-      }
-    </style>
-  </head>
 
+</head>
+
+<header>
   <body>
-    
-    
-   <script src="js/main.js"></script>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-start">
+        <!-- navbar items, navbar burger... -->
+            <img src="isslogo2.jpg" alt="logo" style="width:150px;height:100px;">
+        </div>
+        <a href="#apodTile" id="apodLink">NASA Picture Of The Day(APOD)
+        <h2 id="Sdate"></h2>
+       </a>
+       <!--not coded for functionality-->
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </nav>
+    </div>
+</header>
+
+<div>
+  <!----map to be deleted-->
+  <div id='map' style='width:100%; height: 100%;'></div>
+  <!-------Animated title-->
+  <section class="section" id="animateT">
+    <div class="container">
+      <span class="animated fadeOutRight delay-3s">
+        <h1 class="animated fadeInLeft" id="titleApp">StationTrak</h1>
+      </span>
+    </div>
+  </section>
+  <!-----------right tile column with iss info and logo-->
+  <div class="column is-offset-8">
+    <article class="tile is-parent notification is-info">
+      <div class="ISSPanel">
+        <p class="title">International Space Station</p>
+        <img src="isslogo.jpg" style="width:110px;height:100px;">
+        <h1 id="satName"></h1>
+        <h1 id="timeStamp"></h1>
+        <h1 id="stat1"></h1>
+        <h1 id="stat2"></h1>
+      </div>
+    </article>
+  </div>
+
+
+<!------APOP tile-->
+</div>
+<div class="column " id="apodTile">
+  <article class="tile is-child notification is-info">
+    <div class="content">
+      <p class="title">NASA Astronomy Picture of the Day (APOD)</p>
+      <h2 id="Sdate"></h2>
+      <h2 id="spaceTitle"></h2>
+      <div class="apod">
+        <p>
+          <h5 id="info"></h5>
+        </p>
+          <img id="spaceImg"  src=" " >
+      </div>
+    </div>
+</div>
+</article>
+</div>
+</section>
+</div>
+
 </body>
+
 </html>
+
