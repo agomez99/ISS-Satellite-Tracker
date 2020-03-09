@@ -106,7 +106,6 @@ $.ajax({
     $("#info").html(response.explanation);
     $("#spaceImg").attr("src",response.url);
   });
-=======
 
 
 //LAST FIVE DAYS APOD
