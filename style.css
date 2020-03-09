@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header span.animated {
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+
+.navbar, .navbar-brand {
+  height: 100px;
+  background-color: #3298DC;
+}
+
+.ISSPanel {
+  background-color: #3298DC;
+  height: 270px;
+  z-index: 5;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.spacediv {
+  z-index: 3;
+  display: flex;
+}
+
+.apod {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: center;
+}
+
+.ml12 {
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+#titleApp, #animateT {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 10vw;
+  font-family: sans-serif;
+  font-weight: bold;
+  align-self: center;
+  color: white;
+}
+
+#apodTile {
+  margin-top: 26%;
+}
+
+#apodLink {
+  font-size: 1vw;
+  color: white;
+  padding: 20px;
+}
+
+span {
+  display: inline-block;
+}
+
+#map {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 95%;
+}
+
+#info {
+  font-size: 2vw;
+  padding: 40px;
+}
+
+#spaceImg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#Sdate {
+  font-size: 20px;
+  text-align: center;
+}
+
+#spaceTitle {
+  text-align: center;
+}
