@@ -1,5 +1,5 @@
 $(document).ready(function(){
-<<<<<<< HEAD
+
   mapboxgl.accessToken = 'pk.eyJ1IjoiYWdvbWV6OTkiLCJhIjoiY2s3Z3hvM3liMDNiZDNkcXYweDg4bDJwZSJ9.VvHNy9uxad8mrzriZk5org';
   var map = new mapboxgl.Map({
       container: 'map',
@@ -134,12 +134,11 @@ $.ajax({
 
 
 
->>>>>>> master
   $.ajax({
     url: cords,
     method: "GET"
   }).then(function(response) {
-<<<<<<< HEAD
+
 
 	$("#satName").html("Satelite Name: " + response.info.satname);
 
@@ -184,4 +183,4 @@ $("#timeStamp").html("time stamp "  + year + "-" + month + "-" + date + " " + ho
 
 
 })
->>>>>>> master
+
