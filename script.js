@@ -166,7 +166,6 @@ $("#timeStamp").html("time stamp "  + year + "-" + month + "-" + date + " " + ho
 
 
 
-=======
     // create a element
     //console.log(response.positions[0].satlatitude);
     // add this element to the body
