@@ -109,7 +109,7 @@ $.ajax({
 
 
 //LAST FIVE DAYS APOD
-var space = "https://api.nasa.gov/planetary/apod?api_key=CScJj85NGTPLG7hllUbm393T3rjnQO8ke11aHB2m&start_date=2020-03-02&end_date=2020-03-02"
+var space = "https://api.nasa.gov/planetary/apod?api_key=CScJj85NGTPLG7hllUbm393T3rjnQO8ke11aHB2m&"
 
 var cords = "https://www.n2yo.com/rest/v1/satellite/positions/25544/41.702/-76.014/0/300/&apiKey=AFQ4CY-H89EGX-EFBHPT-4BII"
 
