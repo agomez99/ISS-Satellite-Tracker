@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+}
+
+header span.animated {
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+
+.navbar, .navbar-brand {
+  height: 100px;
+  background-color: #3298DC;
+  align-items: stretch;
+  display: flex;
+}
+.control{
+  text-align:center;
+}
+
+.ISSPanel {
+  background-color: #3298DC;
+  height: 220px;
+  z-index: 5;
+  display: flexbox;
+  text-align: center;
+}
+.column.is-4, .column.is-4-tablet {
+  flex: none;
+  width: 33.33333%;
+}
+.title {
+  text-align: center;
+  font-size:1vw;
+}
+.tile:not(.is-child) {
+
+  display:block;
+}
+.spacediv {
+  z-index: 3;
+  display: flex;
+}
+.section{
+  padding:0;
+}
+.apod {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: center;
+}
+
+.ml12 {
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+#titleApp, #animateT {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 10vw;
+  font-family: sans-serif;
+  font-weight: bold;
+  align-self: center;
+  color: white;
+}
+#issColumn{
+  margin-left:30%;
+  margin-right:30%;
+  align-items: center;
+}
+#apodTile {
+  margin-top: 26%;
+  align-items:center;
+  overflow: auto;
+}
+
+#apodLink {
+  font-size: 1vw;
+  color: white;
+  padding: 20px;
+}
+
+span {
+  display: inline-block;
+}
+
+#map {
+  top: 0;
+  bottom: 0;
+  width: 95%;
+}
+
+#info {
+  font-size: 3vh;
+}
+
+
+#spaceImg {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+
+}
+
+#Sdate {
+  font-size: 20px;
+  text-align: center;
+}
+
+#spaceTitle {
+  text-align: center;
+}
