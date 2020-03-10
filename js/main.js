@@ -22,7 +22,7 @@ var lat;
 var lon;
 let x;
 let latRad;
-let mercN;
+
 let y;
 
 var userLon;
@@ -63,8 +63,8 @@ function drawCurrentLocation(coord) {
     .attr("x", coord[0])
     .attr("y", coord[1])
     .attr("href", "img/station.png")
-    .attr("height", 20)
-    .attr("width", 20)
+    .attr("height", 80)
+    .attr("width", 80)
     // .attr("r", 10)
     // .style("z-index", 1)
     // // .attr("fill", "yellow");
@@ -123,20 +123,9 @@ function getFutureStationPositions() {
     .then(data => {
       console.log(data);
 
-      let arr = [];
-      /* data.forEach((element) => {
-              
-               //console.log(element.satlatitude);
-               
-               arr.push(mercator(element.satlatitude, element.satlongitude)
-               );
-              
-              drawFuturePath(arr);
-        
-        }); */
-      //console.log(arr)
+      
      
-      let iss = new Satellite(data.tle_timestamp, data.id, data.name, data.header, data.tle1, data.tle2);
+    
 
 
     
@@ -144,23 +133,3 @@ function getFutureStationPositions() {
 
 }
 
-class Satellite {
-    constructor(timeStamp, satId, satName,  header, tle1, tle2 ){
-        this.timeStamp = timeStamp;
-        this.satId = satId;
-        this.satName = satName;
-        this.satHeader = header;
-        this.tle1 = tle1;
-        this.tle2 = tle2;
-    }
-    
-getId = ()=>{
-    if(this.satId){
-        return this.satId;
-    }else {
-        return "No ID Found";
-    }
-
-  }
-
-}
