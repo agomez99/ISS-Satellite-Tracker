@@ -59,12 +59,15 @@ d3.json("js/world-110m.json", function(error, world) {
 
 function drawCurrentLocation(coord) {
   svg
-    .append("circle")
-    .attr("cx", coord[0])
-    .attr("cy", coord[1])
-    .attr("r", 10)
-    .style("z-index", 1)
-    .attr("fill", "yellow");
+    .append("image")
+    .attr("x", coord[0])
+    .attr("y", coord[1])
+    .attr("href", "img/station.png")
+    .attr("height", 20)
+    .attr("width", 20)
+    // .attr("r", 10)
+    // .style("z-index", 1)
+    // // .attr("fill", "yellow");
 }
 
 function drawFuturePath(coordArray) {
@@ -105,7 +108,7 @@ function getCurrentStationPosition() {
         ])
       );
 
-      //console.log(mercator(data.positions[0].satlatitude, data.positions[0].satlongitude ))
+      
     });
 }
 
@@ -158,8 +161,6 @@ getId = ()=>{
         return "No ID Found";
     }
 
-getTimeStamp = ()
-}
+  }
 
 }
-
