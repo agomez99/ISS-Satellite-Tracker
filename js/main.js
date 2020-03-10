@@ -22,7 +22,11 @@ var lat;
 var lon;
 let x;
 let latRad;
+<<<<<<< HEAD
 let mercN;
+=======
+
+>>>>>>> agfeature
 let y;
 
 var userLon;
@@ -59,12 +63,24 @@ d3.json("js/world-110m.json", function(error, world) {
 
 function drawCurrentLocation(coord) {
   svg
+<<<<<<< HEAD
     .append("circle")
     .attr("cx", coord[0])
     .attr("cy", coord[1])
     .attr("r", 10)
     .style("z-index", 1)
     .attr("fill", "yellow");
+=======
+    .append("image")
+    .attr("x", coord[0])
+    .attr("y", coord[1])
+    .attr("href", "img/station.png")
+    .attr("height", 80)
+    .attr("width", 80)
+    // .attr("r", 10)
+    // .style("z-index", 1)
+    // // .attr("fill", "yellow");
+>>>>>>> agfeature
 }
 
 function drawFuturePath(coordArray) {
@@ -105,7 +121,11 @@ function getCurrentStationPosition() {
         ])
       );
 
+<<<<<<< HEAD
       //console.log(mercator(data.positions[0].satlatitude, data.positions[0].satlongitude ))
+=======
+      
+>>>>>>> agfeature
     });
 }
 
@@ -120,6 +140,7 @@ function getFutureStationPositions() {
     .then(data => {
       console.log(data);
 
+<<<<<<< HEAD
       let arr = [];
       /* data.forEach((element) => {
               
@@ -160,6 +181,15 @@ getId = ()=>{
 
 getTimeStamp = ()
 }
+=======
+      
+     
+    
+
+
+    
+    });
+>>>>>>> agfeature
 
 }
 

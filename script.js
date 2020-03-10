@@ -1,4 +1,5 @@
 $(document).ready(function(){
+<<<<<<< HEAD
 
   mapboxgl.accessToken = 'pk.eyJ1IjoiYWdvbWV6OTkiLCJhIjoiY2s3Z3hvM3liMDNiZDNkcXYweDg4bDJwZSJ9.VvHNy9uxad8mrzriZk5org';
   var map = new mapboxgl.Map({
@@ -88,6 +89,9 @@ $(document).ready(function(){
           //animation = requestAnimationFrame(animateLine);
       }
   });
+=======
+ 
+>>>>>>> agfeature
 //--------------------------Everything above to be deleted for D3 Map--------------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------------------------------------------------
 //LAST FIVE DAYS APOD
@@ -106,6 +110,7 @@ $.ajax({
     $("#info").html(response.explanation);
     $("#spaceImg").attr("src",response.url);
   });
+<<<<<<< HEAD
 
 
 //LAST FIVE DAYS APOD
@@ -133,12 +138,17 @@ $.ajax({
 
 
 
+=======
+>>>>>>> agfeature
   $.ajax({
     url: cords,
     method: "GET"
   }).then(function(response) {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> agfeature
 	$("#satName").html("Satelite Name: " + response.info.satname);
 
     for (i in response.positions) {
@@ -164,6 +174,7 @@ $("#timeStamp").html("time stamp "  + year + "-" + month + "-" + date + " " + ho
   });
 })
 
+<<<<<<< HEAD
 
 
     // create a element
@@ -179,3 +190,5 @@ $("#timeStamp").html("time stamp "  + year + "-" + month + "-" + date + " " + ho
 
 
 
+=======
+>>>>>>> agfeature
