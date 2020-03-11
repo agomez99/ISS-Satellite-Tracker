@@ -8,13 +8,11 @@ body {
   font-size: 3vw;
 }
 
-<<<<<<< HEAD
 a {
   color: white;
   font-size: 1vw;
   display: inline-block;
-=======
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
+
 }
 
 header span.animated {
@@ -31,32 +29,19 @@ header span.animated {
   display: flex;
   float: left;
 }
-<<<<<<< HEAD
+
 
 .control {
   text-align: center;
-=======
-.control{
-  text-align:center;
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
-}
 
 .ISSPanel {
   background-color: #3298DC;
-<<<<<<< HEAD
   height: 230px;
   z-index: 5;
   display: inline-block;
   text-align: center;
 }
 
-=======
-  height: 220px;
-  z-index: 5;
-  display: flexbox;
-  text-align: center;
-}
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
 .column.is-4, .column.is-4-tablet {
   flex: none;
   width: 33.33333%;
@@ -70,25 +55,16 @@ header span.animated {
 .tile:not(.is-child) {
   display: block;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
 .spacediv {
   z-index: 3;
   display: flex;
 }
-<<<<<<< HEAD
 
 .section {
   padding: 0;
 }
 
-=======
-.section{
-  padding:0;
-}
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
 .apod {
   display: flex;
   flex-direction: row-reverse;
@@ -116,7 +92,7 @@ header span.animated {
   align-self: center;
   color: white;
 }
-<<<<<<< HEAD
+
 
 #issColumn {
   margin-left: 30%;
@@ -125,7 +101,6 @@ header span.animated {
 #issColumn{
   margin-left:30%;
   margin-right:30%;
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
   align-items: center;
 }
 
@@ -145,7 +120,6 @@ span {
   display: inline-block;
 }
 
-<<<<<<< HEAD
 .navbar-menu {
   background: none;
   display: flex;
@@ -161,28 +135,17 @@ span {
   list-style: none;
 }
 
-=======
-#map {
-  top: 0;
-  bottom: 0;
-  width: 95%;
-}
-
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
 #info {
   font-size: 3vh;
 }
 
 #spaceImg {
-<<<<<<< HEAD
   width: auto;
   height: auto;
-=======
   width: auto ;
   max-width: 100% ;
   height: auto ;
 
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
 }
 
 #Sdate {
@@ -192,8 +155,5 @@ span {
 
 #spaceTitle {
   text-align: center;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
+
