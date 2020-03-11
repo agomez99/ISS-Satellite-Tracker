@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-body {
-  margin: 0;
-  padding: 0;
-=======
 body {
   margin: 0;
   padding: 0;
   background-color: black;
 
->>>>>>> agfeature
 }
 
 header span.animated {
@@ -21,29 +14,15 @@ header span.animated {
 .navbar, .navbar-brand {
   height: 100px;
   background-color: #3298DC;
-<<<<<<< HEAD
-=======
   align-items: stretch;
   display: flex;
 }
 .control{
   text-align:center;
->>>>>>> agfeature
 }
 
 .ISSPanel {
   background-color: #3298DC;
-<<<<<<< HEAD
-  height: 270px;
-  z-index: 5;
-  text-align: center;
-}
-
-.title {
-  text-align: center;
-}
-
-=======
   height: 220px;
   z-index: 5;
   display: flexbox;
@@ -61,18 +40,13 @@ header span.animated {
 
   display:block;
 }
->>>>>>> agfeature
 .spacediv {
   z-index: 3;
   display: flex;
 }
-<<<<<<< HEAD
-
-=======
 .section{
   padding:0;
 }
->>>>>>> agfeature
 .apod {
   display: flex;
   flex-direction: row-reverse;
@@ -100,11 +74,6 @@ header span.animated {
   align-self: center;
   color: white;
 }
-<<<<<<< HEAD
-
-#apodTile {
-  margin-top: 26%;
-=======
 #issColumn{
   margin-left:30%;
   margin-right:30%;
@@ -114,7 +83,6 @@ header span.animated {
   margin-top: 26%;
   align-items:center;
   overflow: auto;
->>>>>>> agfeature
 }
 
 #apodLink {
@@ -128,25 +96,12 @@ span {
 }
 
 #map {
-<<<<<<< HEAD
-  position: fixed;
-=======
->>>>>>> agfeature
   top: 0;
   bottom: 0;
   width: 95%;
 }
 
 #info {
-<<<<<<< HEAD
-  font-size: 2vw;
-  padding: 40px;
-}
-
-#spaceImg {
-  max-width: 100%;
-  max-height: 100%;
-=======
   font-size: 3vh;
 }
 
@@ -156,7 +111,6 @@ span {
   max-width: 100% ;
   height: auto ;
 
->>>>>>> agfeature
 }
 
 #Sdate {
@@ -166,28 +120,4 @@ span {
 
 #spaceTitle {
   text-align: center;
-<<<<<<< HEAD
-=======
-
-
-
-
-.title{
-    text-align: center;
-}
-
-header span.animated {
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    text-align: center;
-    
-}
-.bounceInDown{
-text-align: center;
-font-size: 70px;
-font-family: sans-serif;
-font-weight: bold;
->>>>>>> master
-=======
->>>>>>> agfeature
 }
