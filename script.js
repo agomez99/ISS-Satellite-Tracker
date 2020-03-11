@@ -1,14 +1,8 @@
 $(document).ready(function(){
-<<<<<<< HEAD
- 
 
-=======
-
-//--------------------------Everything above to be deleted for D3 Map--------------------------------------------------------------------------------------------------
-//------------------------------------------------------------------------------------------------------------------------------------
 //LAST FIVE DAYS APOD
 var space = "https://api.nasa.gov/planetary/apod?api_key=CScJj85NGTPLG7hllUbm393T3rjnQO8ke11aHB2m&start_date=2020-03-03&end_date=2020-03-08"
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
+
 //TODAY APOD
 var space2 = "https://api.nasa.gov/planetary/apod?api_key=CScJj85NGTPLG7hllUbm393T3rjnQO8ke11aHB2m"
 //ISS Future positions
@@ -23,14 +17,14 @@ $.ajax({
     $("#info").html(response.explanation);
     $("#spaceImg").attr("src",response.url);
   });
-<<<<<<< HEAD
+
   $.ajax({
     url: cords,
     method: "GET"
   }).then(function(response) {
 
 	$("#satName").html("Satelite Name: " + response.info.satname);
-=======
+
 
 //LAST FIVE DAYS APOD
 var space = "https://api.nasa.gov/planetary/apod?api_key=CScJj85NGTPLG7hllUbm393T3rjnQO8ke11aHB2m&"
@@ -55,7 +49,7 @@ $.ajax({
   });
 
 $("#satName").html("Satelite Name: " + response.info.satname);
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
+
 
     for (i in response.positions) {
     y = response.positions[i].satlatitude;
@@ -79,9 +73,6 @@ var seconds = ("0" + date_ob.getSeconds()).slice(-2);
 $("#timeStamp").html("time stamp "  + year + "-" + month + "-" + date + " " + hours + ":" + minutes + ":" + seconds);
   });
 
-<<<<<<< HEAD
-=======
-
 
 
     // create a element
@@ -96,4 +87,3 @@ $("#timeStamp").html("time stamp "  + year + "-" + month + "-" + date + " " + ho
 
 
 
->>>>>>> b0dfd55591d18533a17a34494ea1d07853250450
