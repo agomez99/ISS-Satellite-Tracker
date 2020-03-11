@@ -64,7 +64,6 @@ var seconds = ("0" + date_ob.getSeconds()).slice(-2);
 
 $("#timeStamp").html("time stamp "  + year + "-" + month + "-" + date + " " + hours + ":" + minutes + ":" + seconds);
   });
-})
 
 
 
@@ -81,6 +80,3 @@ $("#timeStamp").html("time stamp "  + year + "-" + month + "-" + date + " " + ho
 
 
 
-
-=======
->>>>>>> agfeature
