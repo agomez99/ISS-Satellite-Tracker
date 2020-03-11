@@ -33,7 +33,7 @@ header span.animated {
 
 .control {
   text-align: center;
-
+}
 .ISSPanel {
   background-color: #3298DC;
   height: 230px;
@@ -97,10 +97,6 @@ header span.animated {
 #issColumn {
   margin-left: 30%;
   margin-right: 30%;
-=======
-#issColumn{
-  margin-left:30%;
-  margin-right:30%;
   align-items: center;
 }
 
