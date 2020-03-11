@@ -73,17 +73,9 @@ var seconds = ("0" + date_ob.getSeconds()).slice(-2);
 $("#timeStamp").html("time stamp "  + year + "-" + month + "-" + date + " " + hours + ":" + minutes + ":" + seconds);
   });
 
+})
 
-
-    // create a element
-    //console.log(response.positions[0].satlatitude);
-    // add this element to the body
-    $("#stat1").html("latitude " + response.positions[0].satlatitude);
-    $("#stat2").html("longitude " + response.positions[0].satlongitude);
-
-
-
-
+   
 
 
 
