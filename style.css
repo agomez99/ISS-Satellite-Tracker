@@ -4,8 +4,10 @@ body {
   background-color: black;
   color: #1c8f4c;
 }
-a{
-  color:white;
+a {
+  color: white;
+  font-size: 1vw;
+  display: inline-block;
 }
 
 .h1, p.title {
