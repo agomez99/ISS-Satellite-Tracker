@@ -5,6 +5,12 @@ body {
   color: #1c8f4c;
 }
 
+
+.h1, p.title {
+  font-size: 3vw;
+}
+
+
 header span.animated {
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
