@@ -53,6 +53,7 @@ header span.animated {
   height: 230px;
   z-index: 5;
   text-align: center;
+  display: inline-block;
 }
 .column.is-4,
 .column.is-4-tablet {
