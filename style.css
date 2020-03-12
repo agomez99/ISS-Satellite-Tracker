@@ -40,11 +40,13 @@ header span.animated {
   text-align: center;
 }
 
+
+
 .ISSPanel {
-  background-color: #3298dc;
-  height: 220px;
+  background-color: #3298DC;
+  height: 230px;
   z-index: 5;
-  display: flexbox;
+  display: inline-block;
   text-align: center;
 }
 .column.is-4,
