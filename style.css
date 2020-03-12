@@ -4,7 +4,9 @@ body {
   background-color: black;
   color: #1c8f4c;
 }
-
+a{
+  color:white;
+}
 
 .h1, p.title {
   font-size: 1vw;
