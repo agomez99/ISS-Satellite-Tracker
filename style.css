@@ -9,7 +9,7 @@ a{
 }
 
 .h1, p.title {
-  font-size: 1vw;
+  font-size: 3vw;
 }
 
 
@@ -64,7 +64,7 @@ header span.animated {
 }
 .title {
   text-align: center;
-  font-size: 1vw;
+  font-size: 2vw;
 }
 .tile:not(.is-child) {
   display: block;
@@ -136,7 +136,7 @@ span {
 }
 
 #Sdate {
-  font-size: 20px;
+  font-size:3vw;
   text-align: center;
 }
 
