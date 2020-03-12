@@ -2,17 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-}
-
-.h1, p.title {
-  font-size: 3vw;
-}
-
-a {
-  color: white;
-  font-size: 1vw;
-  display: inline-block;
-
+  color: #1c8f4c;
 }
 
 header span.animated {
@@ -21,50 +11,61 @@ header span.animated {
   text-align: center;
 }
 
-.navbar, .navbar-brand {
-  height: 100px;
+.navbar,
+.navbar-brand {
   width: 100%;
-  background-color: #3298DC;
+  float: left;
+  height: 100px;
+  background-color: #3298dc;
   align-items: stretch;
   display: flex;
-  float: left;
 }
 
+.navbar-menu {
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  font-size: 1.125em;
+  width: 100;
+}
+
+.navbar-item {
+  color: white;
+  padding: 0;
+  list-style: none;
+}
 
 .control {
   text-align: center;
 }
+
 .ISSPanel {
-  background-color: #3298DC;
-  height: 230px;
+  background-color: #3298dc;
+  height: 220px;
   z-index: 5;
-  display: inline-block;
+  display: flexbox;
   text-align: center;
 }
-
-.column.is-4, .column.is-4-tablet {
+.column.is-4,
+.column.is-4-tablet {
   flex: none;
   width: 33.33333%;
 }
-
 .title {
   text-align: center;
-  font-size: 2vw;
+  font-size: 1vw;
 }
-
 .tile:not(.is-child) {
   display: block;
 }
-
 .spacediv {
   z-index: 3;
   display: flex;
 }
-
 .section {
   padding: 0;
 }
-
 .apod {
   display: flex;
   flex-direction: row-reverse;
@@ -83,7 +84,8 @@ header span.animated {
   line-height: 1em;
 }
 
-#titleApp, #animateT {
+#titleApp,
+#animateT {
   text-align: center;
   font-family: Helvetica;
   font-size: 10vw;
@@ -92,14 +94,11 @@ header span.animated {
   align-self: center;
   color: white;
 }
-
-
 #issColumn {
   margin-left: 30%;
   margin-right: 30%;
   align-items: center;
 }
-
 #apodTile {
   margin-top: 26%;
   align-items: center;
@@ -116,40 +115,27 @@ span {
   display: inline-block;
 }
 
-.navbar-menu {
-  background: none;
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-  font-size: 1.125em;
-  width: 100;
-}
-
-.navbar-item {
-  color: white;
-  padding: 0;
-  list-style: none;
-}
-
 #info {
   font-size: 3vh;
 }
 
 #spaceImg {
   width: auto;
+  max-width: 100%;
   height: auto;
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
-
 }
 
 #Sdate {
-  font-size: 3vw;
+  font-size: 20px;
   text-align: center;
 }
 
 #spaceTitle {
   text-align: center;
 }
+
+.map-header {
+  padding-top: 25%;
+}
+
 
