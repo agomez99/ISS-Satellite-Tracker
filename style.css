@@ -46,7 +46,6 @@ header span.animated {
   background-color: #3298DC;
   height: 230px;
   z-index: 5;
-  display: inline-block;
   text-align: center;
 }
 .column.is-4,
