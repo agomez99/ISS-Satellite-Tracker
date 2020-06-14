@@ -7,7 +7,7 @@ https://agomez99.github.io/ISS-Satellite-Tracker/
 * "Rina Monzon" <https://github.com/maamiimoo>
 
 # Concept 
-User's can view ISS's orbit on a Mercator Projection style map. This application uses N2YP real time satellite tracking and predictions 
+User's can view the Internationl Space Station orbit on a Mercator Projection style map. This application uses N2YP real time satellite tracking and predictions 
 
 
 # Features
@@ -17,7 +17,7 @@ Links to the ISS crew member's profiles and offical Twitter account<Br>
 
 
 # Technologies Used
-Bulma Css Framework <Br>
+Bulma CSS Framework <Br>
 D3.js <Br>
 N2YO API <br>
 NASA'S APOD API <Br>
