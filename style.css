@@ -4,9 +4,10 @@ body {
   background-color: black;
   color: #1c8f4c;
 }
+
 a {
   color: white;
-  font-size: 1vw;
+  font-size: 2vw;
   display: inline-block;
 }
 
@@ -14,15 +15,13 @@ a {
   font-size: 3vw;
 }
 
-
 header span.animated {
-  animation-duration: 2.5s;
+  animation-duration:5s;
   animation-iteration-count: infinite;
   text-align: center;
 }
 
-.navbar,
-.navbar-brand {
+.navbar, .navbar-brand {
   width: 100%;
   float: left;
   height: 100px;
@@ -36,7 +35,7 @@ header span.animated {
   display: flex;
   justify-content: space-around;
   margin: 0;
-  font-size: 1.125em;
+  font-size: 3em;
   width: 100;
 }
 
@@ -44,13 +43,12 @@ header span.animated {
   color: white;
   padding: 0;
   list-style: none;
+  font-size: 8em;
 }
 
 .control {
   text-align: center;
 }
-
-
 
 .ISSPanel {
   background-color: #3298DC;
@@ -59,25 +57,30 @@ header span.animated {
   text-align: center;
   display: inline-block;
 }
-.column.is-4,
-.column.is-4-tablet {
+
+.column.is-4, .column.is-4-tablet {
   flex: none;
-  width: 33.33333%;
+  width: 33.3%;
 }
+
 .title {
   text-align: center;
   font-size: 2vw;
 }
+
 .tile:not(.is-child) {
   display: block;
 }
+
 .spacediv {
   z-index: 3;
   display: flex;
 }
+
 .section {
   padding: 0;
 }
+
 .apod {
   display: flex;
   flex-direction: row-reverse;
@@ -96,8 +99,7 @@ header span.animated {
   line-height: 1em;
 }
 
-#titleApp,
-#animateT {
+#titleApp, #animateT {
   text-align: center;
   font-family: Helvetica;
   font-size: 10vw;
@@ -106,14 +108,18 @@ header span.animated {
   align-self: center;
   color: white;
 }
+
 #issColumn {
   margin-left: 30%;
   margin-right: 30%;
   align-items: center;
 }
+
 #apodTile {
   align-items: center;
   overflow: auto;
+  margin-left:auto;
+  margin-right:auto
 }
 
 #apodLink {
@@ -128,16 +134,19 @@ span {
 
 #info {
   font-size: 3vh;
-}
 
+}
+.title{
+  text-align: center;
+}
 #spaceImg {
-  width: auto;
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
 
 #Sdate {
-  font-size:3vw;
+  font-size: 3vw;
   text-align: center;
 }
 
@@ -148,5 +157,3 @@ span {
 .map-header {
   padding-top: 25%;
 }
-
-
