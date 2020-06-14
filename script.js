@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   //TODAY APOD
   var space2 =
     "https://api.nasa.gov/planetary/apod?api_key=CScJj85NGTPLG7hllUbm393T3rjnQO8ke11aHB2m";
@@ -7,8 +7,8 @@ $(document).ready(function() {
     "https://www.n2yo.com/rest/v1/satellite/positions/25544/41.702/-76.014/0/300/&apiKey=AFQ4CY-H89EGX-EFBHPT-4BII";
   $.ajax({
     url: space2,
-    method: "GET"
-  }).then(function(response) {
+    method: "GET",
+  }).then(function (response) {
     $("#spaceTitle").html(response.title);
     $("#Sdate").html(response.date);
     $("#info").html(response.explanation);
@@ -16,8 +16,8 @@ $(document).ready(function() {
   });
   $.ajax({
     url: cords,
-    method: "GET"
-  }).then(function(response) {
+    method: "GET",
+  }).then(function (response) {
     $("#satName").html("Satelite Name: " + response.info.satname);
     for (i in response.positions) {
       y = response.positions[i].satlatitude;
